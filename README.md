@@ -1,5 +1,5 @@
 # Smart Packaging Line
-### Weight-Based Automated Kit Inspection — 12-Method Benchmark
+### Weight-Based Automated Kit Inspection — 12-Method Benchmark — Tecnológico de Monterrey x TE Connectivity
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange?logo=scikit-learn)
@@ -11,13 +11,15 @@
 
 ## Overview
 
-Two-level classification pipeline for hardware kit inspection at **TE Connectivity (CPT)**.
+This repository contains the full statistical and machine learning pipeline for an automated final inspection system for a two-level classification pipeline at **TE Connectivity (CPT Department)**.
 The system uses precision weight measurement (Sartorius scale, 0.01g resolution, RS-232) to:
 
 - **L1 — OK / NG**: Detect whether the kit is complete
 - **L2 — Component ID**: When NG, identify which component is missing
 
 Twelve methods are benchmarked: 8 statistical/probabilistic + 5 machine learning, with full 5-fold cross-validation on the real DOE dataset (420 kits).
+
+The work is part of a **Mechatronics Engineering Capstone** at [Tec de Monterrrey](https://tec.mx), in collaboration with [TE Connectivity](https://www.te.com).
 
 ---
 
