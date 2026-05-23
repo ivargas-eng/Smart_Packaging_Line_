@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+*.lcov
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Intermediate Excel builds (keep only final versions)
+*_calc.xlsx
+*_calc2.xlsx
+DOE_v*.xlsx
+Bayes_vs_Runs10_calc.xlsx
+v5_calc.xlsx
+v6_calc.xlsx
+
+# Data that contains PII or confidential process parameters
+# (keep doe_data.csv since it contains only anonymized weights)
+ml_predictions_raw.csv
+
+# Large files better tracked with Git LFS
+*.xlsx filter=lfs diff=lfs merge=lfs -text
