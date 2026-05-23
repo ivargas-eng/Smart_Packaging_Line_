@@ -182,4 +182,4 @@ pytest src/tests/ -v
 
 MIT License. See [LICENSE](LICENSE).
 
-> *"Zero defective kits to the customer. Everything else is engineering trade-offs."*
+> *"Chakalitos Engineering Solutions minus 2."*
